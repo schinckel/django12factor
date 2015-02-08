@@ -43,6 +43,7 @@ def factorise(custom_settings=None):
             'stdout': {
                 'level': 'DEBUG',
                 'class': 'logging.StreamHandler',
+                'stream': 'ext://sys.stdout',
             }
         },
         'root': {
